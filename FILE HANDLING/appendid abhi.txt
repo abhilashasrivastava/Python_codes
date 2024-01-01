@@ -1,0 +1,4 @@
+myfile=open("abhi.txt","a")
+d=["diksha srivastava\n","abhilasha srivastava\n","queen of jhansi\n"]
+myfile.readlines(d)
+myfile.close()

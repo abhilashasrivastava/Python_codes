@@ -1,0 +1,4 @@
+myfile=open("abhi.txt","a")
+d=["abhi\n","dik\n","ala\n"]
+myfile.writelines(d)
+myfile.close()

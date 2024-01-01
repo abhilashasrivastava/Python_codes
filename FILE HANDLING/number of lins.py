@@ -1,0 +1,5 @@
+myfile=open(r"F:\ABHILASHA SRIVASTAVA\IMAGES\fish.txt","r")
+y=myfile.readlines()
+length=len(y)
+print(length)
+myfile.close()
