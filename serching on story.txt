@@ -1,0 +1,17 @@
+count=0
+f=open("STORY.txt","w")
+txt=input("enter the text to write into file:")
+f.writelines(txt)
+print("file successfully created:")
+f.close()
+
+wsearch=input("enter the word to be searched:")
+print(wsearch)
+f=open("STORY.txt","r")
+d=f.read()
+word=d.split()
+for i in word:
+    if(i==wsearch):
+        count+=1
+        print("NUMBER OF TIME",wsearch,"OCCURED",count)
+f.close()
